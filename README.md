@@ -11,4 +11,4 @@ Meta and og tags
 Semantically correct HTML structure textured by internal CSS
 
 ## project URL
-[link](https://github.com/YonatanKBa-doh/CV-repo)
+You can find more info on project in [link](https://github.com/YonatanKBa-doh/CV-repo)
