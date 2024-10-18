@@ -1,7 +1,10 @@
 # CV-repo
 CV template in HTML and CSS
 
-Submitions check list:
+
+
+## Submitions check list:
+
 Favicon briefcase
 Single-page layout heading
 Meta and og tags
