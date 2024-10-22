@@ -8,7 +8,7 @@
 #lists{padding: 0%;
   padding-left: 4%;
 margin: 2%;
-text-align: left;
+text-align:left;
     }
 
 hr{
@@ -30,36 +30,58 @@ margin-bottom: 0;
         
 }
   .heading {color: #228B22;
+  padding:2%;
    padding-left: 0%;
 margin: 4%;
-line-height: 2%;
+margin-bottom: 4%;
+line-height: 4%;
+white-space: nowrap;
+
+
   	}
 
   .subheading { text-align: justify;
     color: #0096ff;
     font-size: large;
-padding: 0%;
+padding: 2%;
 margin: 4%;
 margin-left: 4%;
 margin-bottom: 2%;
-line-height: 1%;
+line-height: 1.5%;
+white-space: nowrap;
+width: fit-content;
+overflow-wrap: break-word;
+
+
 }
 
-body {border: black solid;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.boxbody{border: rgb(0, 0, 0) solid 0.2rem;
       text-align: left;
     ; 
     word-wrap: break-word;
+    white-space: nowrap;
 	padding: 4%;
+  padding-right:16%;
 margin: 2%;
+ 
+width:max-content;
+overflow-wrap: break-word;
 }
 
 
 .para{color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: left;
-line-height: 8px;
+line-height: 8%;
 padding: 0%;
+
 margin-left: 4%;
+white-space: nowrap;
+word-wrap:break-word;
+width: fit-content;
+overflow-wrap: auto;
+
+
 }
       
 #links{
@@ -68,9 +90,12 @@ text-align: left;
 line-height: 0;
 padding: 0;
 margin-left: 4%;
+max-width: fit-content;
 }
 
 	</style>
+
+  <!-- meta tags-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="cv">
@@ -92,6 +117,8 @@ margin-left: 4%;
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico?v=1">
 	
   </head>
+
+  <div class="boxbody">
   <body>
 
     <header>
@@ -117,9 +144,11 @@ margin-left: 4%;
 	   <div class = 'para'>
 	   
       <p>
-        HTML,CSS, JavaScript, Accessibility, React, Responsive Web Design, SQL,
-        Technical Writing.
+        HTML,CSS, JavaScript, Accessibility,
+         React,
       </p>
+      <p> Responsive Web Design, SQL,
+        Technical Writing.</p>
 	  </div>
     
 
@@ -182,10 +211,17 @@ margin-left: 4%;
 	 <div class="heading"> Across the Internet 
 	</div>
 	 <div id = 'links'>
-	<p> Add your Linkedin, GitHub profile links
+  <div class="para">
+	<p style="text-indent: -4%;">
+	
+  Add your Linkedin, GitHub profile links
+	
 	</p>
+  </div>
 	</div>
 	  	  
     </div>
   </body>
+
+</div>
 </html>
