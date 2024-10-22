@@ -12,3 +12,4 @@ Semantically correct HTML structure textured by internal CSS
 
 ## project URL
 You can find more info on project in [link](https://github.com/YonatanKBa-doh/CV-repo)
+https://roadmap.sh/projects/single-page-cv
